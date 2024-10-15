@@ -1,6 +1,16 @@
-This is my NLP Homework. At first I implemented some classification method on the dataset and then fine-tuned a t5 model to detoxify the english texts.
-The datasets were [ParaDetox](https://aclanthology.org/2022.acl-long.469/) and [OLID](https://sites.google.com/site/offensevalsharedtask/olid).
+# NLP Homework: Text Classification and Detoxification
 
-Demo:
-[Classification](https://huggingface.co/erfansadraiye/ClassifyOffensiveTasks)
-[Detoxification](https://huggingface.co/erfansadraiye/detoxify)
+This repository contains my work for an NLP homework assignment, focusing on text classification and detoxification.
+## Project Overview
+
+  - Text Classification: Implemented various classification methods to detect offensive language in text.
+    
+  - Text Detoxification: Fine-tuned a T5 model to detoxify English texts, identifying and reducing toxicity at the word level.
+
+## Datasets
+  - [ParaDetox](https://aclanthology.org/2022.acl-long.469/)
+- [OLID](https://sites.google.com/site/offensevalsharedtask/olid) (Offensive Language Identification Dataset)
+
+## Demos
+  - [Text Classification Model](https://huggingface.co/erfansadraiye/ClassifyOffensiveTasks)
+  - [Text Detoxification Model](https://huggingface.co/erfansadraiye/detoxify)
